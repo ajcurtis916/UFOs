@@ -20,8 +20,10 @@ The filters build on each other as new filters are added, displaying only inform
 If non-applicable filters are used and there is nothing to match the search, no data will be displayed.</br></br>
 
 ## Resources
-Data Source: data.js file of UFO Sitings</br></br>
+Data Source: data.js file of UFO Sitings</br>
 Software: Javascript, HTML and CSS via VS Code, Version 1.62.3
 
 ## Summary
-One drawback of this design is the user may not know which filters to input, which decreases the filters' functionality.  Particularly the "shape" data values do not match intuitively to common shapes.  "Shapes" in this data set include "light," "formation," "fireball," "unknown," etc.  Drop-down menus may be more optimal for the filter options.  The parameters of the data are also fairly limited, so drop-down menus for all data values are suggested.  For example, the data key of datetime only spans from 1/1/2010 to 1/13/2010, so inputting any other date may have the user thinking the filters are not working correctly, when really there is no data to display.
+One drawback of this design is the user may not know which filters to input, which decreases the filters' functionality.  Particularly the "shape" data values do not match intuitively to common shapes.  "Shapes" in this data set include "light," "formation," "fireball," "unknown," etc.</br>
+
+Drop-down menus may be more optimal for the filter options.  The parameters of the data are also fairly limited, so drop-down menus for all data values are suggested.  For example, the data key of datetime only spans from 1/1/2010 to 1/13/2010, so inputting any other date may have the user thinking the filters are not working correctly, when really there is no data to display.
