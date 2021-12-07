@@ -85,27 +85,20 @@ function filterTable() {
 
 //listen for changes to each filter
 d3.selectAll("input").on("change",updateFilters);
-d3.select("button").on("click",resetTable);
 
 //build table and call original data for initial page load
 buildTable(tableData);
 
 //reset button event listener
-// resetbtn.on("click",()=>{
-//     d3.selectAll("input").on("change",updateFilters);
+resetbtn.on("click",()=>{
+    d3.selectAll("input").on("change",updateFilters);
+    buildTable(tableData)
+    console.log("Table reset")
+});
+
+// function resetTable(){
+//     resetbtn.on("click",()=>{
+//     tbody.html("");
 //     buildTable(tableData)
 //     console.log("Table reset")
-// });
-
-//reset table to original table on reset button click
-function resetTable(){
-    buildTable(tableData)
-    document.getElementsByClassName("list-group-item bg-dark").reset("input")
-    console.log("Table reset")
-};
-
-// function resetTable(){}
-//     resetFilters=document.getElementsByClassName("list-group-item bg-dark").value="";
-//     if resetFilters=buildTable(tableData);
-//     console.log("Table reset")
-// };
+// })};
