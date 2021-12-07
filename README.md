@@ -13,7 +13,7 @@ To simplify the user's experience, we customized the page to include text input 
 
 ![image](https://user-images.githubusercontent.com/89767816/144947707-70b7fbf3-25af-4abf-b89f-f81158ba61ea.png)
 
-The filters build on each other as new filters are added, displaying only information that matches all chosen filters.  In other words, the filters are cummulative until the reset button resets the filtered data back to the original data table.</br></br>
+The filters build on each other as new filters are added, displaying only information that matches all chosen filters.  In other words, the filters are cummulative until the reset button resets the filtered data back to the original data table and clears the inputs.</br></br>
 
 ![image](https://user-images.githubusercontent.com/89767816/144947783-5e5cb2bb-4a3c-4113-bb5c-90ea71aa5e30.png)
 
