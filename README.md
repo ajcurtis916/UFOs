@@ -13,15 +13,15 @@ To simplify the user's experience, we customized the page to include text input 
 
 ![image](https://user-images.githubusercontent.com/89767816/144947707-70b7fbf3-25af-4abf-b89f-f81158ba61ea.png)
 
-The filters build on each other as new filters are added, displaying only information that matches all chosen filters.  In other words, the filters are cummulative until the page is refreshed.</br></br>
+The filters build on each other as new filters are added, displaying only information that matches all chosen filters.  In other words, the filters are cummulative until the reset button resets the filtered data back to the original data table.</br></br>
 
 ![image](https://user-images.githubusercontent.com/89767816/144947783-5e5cb2bb-4a3c-4113-bb5c-90ea71aa5e30.png)
 
-If non-applicable filters are used and there is nothing to match the search, no data will be displayed.  A reset button was added to clear the text input boxes at the end of the user's search.</br></br>
+If non-applicable filters are used and there is nothing to match the search, no data will be displayed.</br></br>
 
 ## Resources
 Data Source: data.js file of UFO Sitings</br></br>
 Software: Javascript, HTML and CSS via VS Code, Version 1.62.3
 
 ## Summary
-One drawback of this design is the user may not know which filters to input, which decreases the filters' functionality.  Particularly the "shape" data values do not match intuitively to common shapes.  "Shapes" in this data set include "light," "formation," "fireball," "unknown," etc.  Drop-down menus may be more optimal for the filter options.  The parameters of the data are also fairly limited, so dropboxes for all data values is suggested.  For example, the data only spans from 1/1/2010 to 1/13/2010, so inputting any other date may have the user thinking the filters are not working correctly, when really there is no data to display.
+One drawback of this design is the user may not know which filters to input, which decreases the filters' functionality.  Particularly the "shape" data values do not match intuitively to common shapes.  "Shapes" in this data set include "light," "formation," "fireball," "unknown," etc.  Drop-down menus may be more optimal for the filter options.  The parameters of the data are also fairly limited, so drop-down menus for all data values are suggested.  For example, the data key of datetime only spans from 1/1/2010 to 1/13/2010, so inputting any other date may have the user thinking the filters are not working correctly, when really there is no data to display.
